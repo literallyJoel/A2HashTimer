@@ -49,7 +49,7 @@ public class HashSpeedTest {
         String[] Header = new String[runs+2];
         Header[0] = "Run #";
         Header[runs+1] = "Average (ns)";
-        IntStream.range(1, runs+1).forEach(i -> Header[i] = Integer.toString(i-1));
+        IntStream.range(1, runs+1).forEach(i -> Header[i] = Integer.toString(i));
         data.add(Header);
     }
 
